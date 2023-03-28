@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+        .center {
+            text-align: center;
+        }
+    
+        .right {
+            text-align: right;
+        }
+    
+        .left {
+            text-align: left;
+        }
+    
+        h3 {
+            font-size: 1.17em;
+        }
+    
+        hr {
+            width: 50%;
+            margin: auto;
+            border: 0;
+            border-top: 1px solid #000;
+        }
+    
+        img {
+            float: right;
+            width: 500px;
+        }
+    
+        .red {
+            background-color: red;
+            color: white;
+            padding: 5px;
+            display: inline-block;
+        }
+    
+    </style>
+</head>
+<body>
+    <p class="left">1. Create a HTML page that displays the exact same output. 
+        Make sure you stick to standards, for example the &lt;br/&gt; tag should be closed. 
+        Also check whether your tags are paired, for example there should be one &lt;p&gt; tag for every &lt;p&gt; tag</p>
+    <p class="left"><strong>2. This note in bold.</strong></p>
+	<p class="center">3. This is the first centered paragraph.</p>
+	<p class="left">4. This is the second paragraph. It appears on the left.</p>
+    <p class="right">5. This is the third paragraph. It appears on the right.</p>
+	<h3>6. This is a level 3 heading.</h3>
+	<h5 style="text-align: right;">7. This is a level 5 heading aligned to the right.</h5>
+    <p class="left">8. Below is a horizontal line with 50% width with respect to the browser width.</p>
+    <style>
+        hr {
+          width: 50%;
+        }
+        </style>
+        
+        <hr>
+    <p class="left">9. Below is a horizontal line which is 100 pixels wide.	</p>
+    <hr style="width: 100px;">
+<img src="catimage.png" alt="image of a cat">
+	<p>10. Now this is a little tough. 
+        The image is displayed on the right side and the text is displayed on the left side. 
+        This is done using the ""img"" tag here, but you can use other methods to achieve the same output. 
+        The image has to be 500 pixels wide.</p>
+	<a href="https://www.google.com/">11. Click here to go to Google!</a>
+    <style>
+        h2 {
+          font-weight: normal;
+          font-size: 1em;
+        }
+      </style>
+      
+      <h2>12. Lists:</h2>
+      
+	<ol type="A">
+		<li>Item 1</li>
+		<li>Item 2
+			<ol type = "I">
+				<li>Item 2.1</li>
+				<li>Item 2.2</li>
+				<li>Item 2.3
+					<ol>
+						<li>Item 2.3.1</li>
+						<li>Item 2.3.2</li>
+						<li>Item 2.3.3</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+	</ol>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2
+			<ul>
+				<li>Item 2.1</li>
+				<li>Item 2.2</li>
+				<li>Item 2.3
+					<ul>
+						<li>Item 2.3.1</li>
+						<li>Item 2.3.2</li>
+						<li>Item 2.3.3</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+    <p>13. Subscripts: KAl(SO<sub>4</sub>)<sub>2</sub>·12H<sub>2</sub>O</p>
+    <pre>
+        14.   This			
+                entire		
+                    line
+            is		
+                written		
+                    without  using 
+        any
+                    special		
+        character. Only one
+                                tag	
+        can help do this.
+        </pre>
+        <p style="font-family: times; font-size: 30px;">15. This is written using the font "times" and is 30 pixels big.</p>
+
+                        <table border="2 " border-style:double>
+                        
+                            <tr>
+                                 <th>Column 1</th>
+                                 <th>Column 2</th>
+                            </tr>
+                            <tr>
+                                 <td>1.1</td>
+                                 <td>1.2</td>
+                            </tr>
+                            <tr>
+                                 <td>2.1</td>
+                                 <td>2.2</td>
+                            </tr>
+                       </table>
+                       
+                       <p>
+                            17. Weird Table
+                       </p>
+                       <table border="2  " border-style="double">
+                            <tr>
+                                 <th rowspan="2"><u>something</u></th>
+                                 <th>something else</th>
+                                 <th bgcolor="black">
+                                      <font color="white"> no idea</font>
+                                 </th>
+                            </tr>
+                            <tr>
+                                 <th colspan="2">
+                                      its morbin time
+                                 </th>
+                            </tr>
+                       </table>
+                       
+                       <p style="background-color: red; color: white;">18. Add some colors! This line has a red background and a white
+                            foreground.</p>
